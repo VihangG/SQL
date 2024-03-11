@@ -1,0 +1,14 @@
+CREATE TABLE customers (
+    customer_id INT PRIMARY KEY,
+    name VARCHAR(100),
+    email VARCHAR(100),
+    phone_number VARCHAR(20),
+    city VARCHAR(100),
+    purchase_date DATE
+);
+
+INSERT INTO customers (customer_id, name, email, phone_number, city, purchase_date) VALUES
+(1, 'John Doe', 'john@example.com', '123-456-7890', 'New York', '2023-05-10'),
+(2, 'Alice Smith', 'alice@example.com', '987-654-3210', 'Los Angeles', '2023-08-20'),
+(3, 'Bob Johnson', 'bob@example.com', '456-789-0123', 'New York', '2023-07-15'),
+(4, 'Emily Brown', 'emily@example.com', '789-012-3456', 'Chicago', '2023-03-25');
