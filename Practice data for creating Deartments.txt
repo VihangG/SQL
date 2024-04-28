@@ -1,0 +1,11 @@
+CREATE TABLE Departments (
+    department_id INT PRIMARY KEY,
+    department_name VARCHAR(255) NOT NULL
+);
+
+
+INSERT INTO Departments (department_id, department_name) VALUES
+(1, 'Sales'),
+(2, 'Marketing'),
+(3, 'Finance'),
+(4, 'Human Resources');
